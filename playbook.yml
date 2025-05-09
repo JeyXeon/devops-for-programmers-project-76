@@ -1,0 +1,8 @@
+- name: Common playbook
+  hosts: all
+
+  roles:
+    - role: geerlingguy.pip
+      become: yes
+    - role: geerlingguy.docker
+      become: yes
