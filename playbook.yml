@@ -3,6 +3,6 @@
 
   roles:
     - role: geerlingguy.pip
-      become: yes
+      become: true
     - role: geerlingguy.docker
-      become: yes
+      become: true

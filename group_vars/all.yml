@@ -1,3 +1,21 @@
 pip_install_packages:
   - name: docker
-redmine_port: 890
+
+redmine_version: latest
+redmine_port: 3000
+redmine_image: redmine:latest
+redmine_container_name: redmine_app
+redmine_http_port: 3000
+redmine_data_dir: /opt/redmine/data
+redmine_config_dir: /opt/redmine/config
+datadog_data_dir: /etc/datadog-agent
+
+postgres_user: user1 
+postgres_db: db1
+postgres_host: rc1a-2fhsmul96vmcqvu1.mdb.yandexcloud.net,rc1d-lg8edicqf1fm42sf.mdb.yandexcloud.net
+postgres_port: 6432
+
+datadog_site: "datadoghq.eu"
+datadog_config:
+datadog_tags: "env:production,service:redmine"
+
