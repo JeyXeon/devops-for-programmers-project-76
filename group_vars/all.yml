@@ -16,6 +16,4 @@ postgres_host: rc1a-2fhsmul96vmcqvu1.mdb.yandexcloud.net,rc1d-lg8edicqf1fm42sf.m
 postgres_port: 6432
 
 datadog_site: "datadoghq.eu"
-datadog_config:
 datadog_tags: "env:production,service:redmine"
-
